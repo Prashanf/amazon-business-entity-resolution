@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Datasets (Competition data is multi-GB)
+data/
+student_resource/
+*.zip
+*.tar.gz
+*.parquet
+
+# Output artifacts (ignore large generated inference TSVs)
+output/matching_results.tsv
+output/candidate_pairs.tsv
+
+# Scratch & Temporary scripts
+scratch/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Virtual Environments
+venv/
+venvs/
+.env
+.venv
+env/
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
