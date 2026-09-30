@@ -108,8 +108,8 @@ Evaluated under strict empirical conditions on 500 reference entities across 501
 ### 1. Environment Setup
 
 ```bash
-git clone https://github.com/Prashanf/Amazon_ML_challenge.git
-cd Amazon_ML_challenge
+git clone https://github.com/Prashanf/amazon-business-entity-resolution.git
+cd amazon-business-entity-resolution
 pip install -r requirements.txt
 ```
 
