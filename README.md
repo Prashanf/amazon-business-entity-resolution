@@ -83,7 +83,7 @@ Evaluated under strict empirical conditions on 500 reference entities across 501
 ├── workflow.md                          # In-depth hypothesis testing, benchmarks & mathematical formulation
 ├── package_submission.py                # Automated packaging utility (<team_name>_submission.zip)
 ├── notebooks/
-│   ├── eda_train.ipynb                  # Master interactive EDA, feature extraction & training notebook
+│   ├── entity_resolution.ipynb           # Master interactive EDA, feature extraction & training notebook
 │   └── entity_resolution_v2.ipynb       # Baseline blocking exploration notebook
 ├── code/
 │   └── business_entity_resolution/      # Official deliverable package

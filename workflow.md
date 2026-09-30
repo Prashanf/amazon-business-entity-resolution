@@ -5,7 +5,7 @@
 **Date**: September 28, 2026  
 **Status**: All Stages Complete — Blocking, Feature Extraction, 5-Fold Training, Validation, and Streaming Inference Verified  
 **Virtual Environment**: `/Users/vishalsharma/Documents/Prashant/venvs/ml_env/bin/python`  
-**Core Reference Artifacts**: [`notebooks/eda_train.ipynb`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/notebooks/eda_train.ipynb), [`Documentation_template.md`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/Documentation_template.md), [`code/business_entity_resolution/src/`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/code/business_entity_resolution/src/)
+**Core Reference Artifacts**: [`notebooks/entity_resolution.ipynb`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/notebooks/entity_resolution.ipynb), [`Documentation_template.md`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/Documentation_template.md), [`code/business_entity_resolution/src/`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/code/business_entity_resolution/src/)
 
 ---
 
@@ -333,7 +333,7 @@ python3 student_resource/utils/validate_submission.py \
    * 5-fold LightGBM booster ensemble trained and verified.
    * Model artifacts cached to `models/lgbm_entity_resolver_v1.txt`.
    * Out-of-fold threshold calibrated to **`0.75`** to maximize Macro $F_{0.5}$.
-4. **Notebook Updates ([`notebooks/eda_train.ipynb`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/notebooks/eda_train.ipynb))**:
+4. **Notebook Updates ([`notebooks/entity_resolution.ipynb`](file:///Users/vishalsharma/Documents/Prashant/Amazon_ML_challenge/notebooks/entity_resolution.ipynb))**:
    * Cell 39 (Section 17): Fast test inference with `EXPAND_TO_FULL_TEST_SET = True`.
    * Cell 41 (Section 18): Full-scale streaming inference across 1,732,544 test entities with automated preprocessing fallback, parquet caching, and automated official zip packaging.
 5. **Stand-Alone Package & CLI**:
